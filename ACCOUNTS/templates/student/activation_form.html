@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <form method="POST" class="post-form">
+        {% csrf_token %}
+         Email Address: <input type="text" name="Email" ><br><br>
+        Activation key: <input type="text" name="activation_key"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+{% endblock content %}

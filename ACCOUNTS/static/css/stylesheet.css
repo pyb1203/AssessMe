@@ -1,0 +1,269 @@
+.header,.admin_slot a
+{
+    text-align: right;
+    margin-bottom: 0%;
+    text-decoration: none;
+    color: white;
+}
+
+.header,.b a
+{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #263238 ;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+
+.title{
+    font-family: OCR;
+    text-align: center;
+}
+/*.logo*/
+/*{*/
+    /*font-family: "OCR";*/
+    /*float: left;*/
+    /*font-size: x-large;*/
+    /*margin-right: 5px;*/
+/*}*/
+
+
+.a,.logoutbtn {
+    background-color: #4CAF50;
+    color: white;
+    float: right;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: -25px ;
+    text-decoration: none;
+}
+
+
+.login {
+    float: right;
+    margin: auto;
+}
+
+.login-btn {
+    position: relative;
+    left: 50%;
+}
+
+.title-for-selector {
+
+}
+
+.questions_table {
+    width: 100%;
+}
+
+.assignments {
+    width: 100%;
+    margin: auto;
+}
+.well{
+    border-radius: 0px ;
+}
+.assignment_report_title {
+    /*width: 100%;*/
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    background-color: #f0ad4e;
+    margin: auto;
+    border-bottom: 1px solid #418741;
+
+}
+
+.assignment_report_description {
+    display: none;
+    padding: 10px;
+    margin: auto;
+}
+
+.assignment_report {
+    padding: 0px;
+    margin: auto;
+}
+
+.navigation-tree {
+    float: left;
+    width: 100%;
+}
+
+.calender {
+    float: right;
+    /*width: 25%;*/
+}
+
+.container-fluid{
+    padding: 10px;
+}
+
+.content {
+    /**width: 50%;*/
+    /*margin-left: 10px;*/
+    /*padding: 10px;*/
+    /*background-color: #dedede;*/
+    position: relative;
+    min-height: 70%;
+}
+
+.box-card {
+    position: relative;
+    width: 100%;
+    background-color: #5d1769;
+    color: #f9f9f9;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.box-card1 {
+    position: relative;
+    width: 100%;
+    color: #000000;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.abc{
+    width:100%;
+}
+.tab-card {
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.no_of_questions {
+    float: right;
+}
+
+.active .assignment_report_title {
+    background-color: #2aabd2;
+    border-bottom: 1px solid #237999;
+}
+
+.assignments_table {
+    width: 100%;
+}
+
+.overall_report_table {
+    width: 75%;
+}
+
+.add_icon {
+    height: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.row {
+    margin: auto;
+}
+
+.assignments-tab {
+}
+
+.students-tab {
+    display: none;
+}
+
+.tas-tab {
+    display: none;
+}
+
+.datamining {
+    width: 400px;
+    padding: 10px;
+    margin-top: 3%;
+    border: 0.1px solid #263238;
+    margin-left: 35%;
+}
+
+.subhead {
+    text-align: center;
+}
+
+.head_q {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.q_status {
+    background-color: #2aabd2;
+    padding: 5px;
+}
+
+.q_correct {
+    background-color: #2b542c;
+}
+
+.q_wrong {
+    background-color: #761c19;
+}
+
+.test_case_input {
+    background-color: #FFFFFF;
+
+    padding: 5px;
+    font-family: monospace;
+}
+
+.studentvsqmatrix {
+    border-spacing: 5px;
+    width: 100%;
+    border-collapse: separate;
+}
+
+.q_id {
+    text-align: center;
+}
+
+.space {
+    margin-top: 230px;
+}
+
+.test_case_output {
+    background-color: #FFFFFF;
+    padding: 5px;
+    font-family: monospace;
+}
+
+#editor {
+    margin: 0;
+    height: 400px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.boxed {
+    border: 1px solid #808080;
+    width: 690px;
+    height: 100px;
+}
+
+@font-face {
+  font-family: "OCR";
+  src: url('../fonts/OCRAEXT.TTF');
+  format("truetype");
+}
